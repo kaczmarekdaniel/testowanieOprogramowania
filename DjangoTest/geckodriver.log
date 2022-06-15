@@ -1,0 +1,27 @@
+1654624990265	geckodriver	INFO	Listening on 127.0.0.1:49691
+1654625048983	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49720" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/kq/dvt4k3gj0rbdsfqrb0rnvplr0000gn/T/rust_mozprofileGdUhH0"
+1654625062593	Marionette	INFO	Marionette enabled
+2022-06-05 13:03:25.599 plugin-container[6944:44447] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-05 13:03:25.600 plugin-container[6944:44447] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://localhost:49720
+2022-06-05 13:03:25.725 plugin-container[6944:44447] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-05 13:03:25.729 plugin-container[6944:44447] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-05 13:03:25.729 plugin-container[6944:44516] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-05 13:03:25.729 plugin-container[6944:44516] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/kq/dvt4k3gj0rbdsfqrb0rnvplr0000gn/T/rust_mozprofileGdUhH0/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1654625064242	Marionette	INFO	Listening on port 49733
+Read port: 49733
+1654625064264	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:49720/devtools/browser/1450e6b3-6d10-4065-b471-ff665c7d477c
+1654625101848	geckodriver	INFO	Listening on 127.0.0.1:49763
+1654625102367	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49764" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/kq/dvt4k3gj0rbdsfqrb0rnvplr0000gn/T/rust_mozprofileLxHNsH"
+2022-06-06 21:36:02.692 plugin-container[7113:45801] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-06 21:36:02.692 plugin-container[7113:45801] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1654625102758	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:49764
+1654625104204	Marionette	INFO	Listening on port 49779
+DevTools listening on ws://localhost:49764/devtools/browser/2a5e75ee-7a4e-4fd7-9127-b40a54fffc3b
+Read port: 49779
+1654625110863	Marionette	INFO	Stopped listening on port 49733

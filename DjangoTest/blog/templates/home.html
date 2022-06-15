@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Lista do zrobienia</title>
+  </head>
+  <body>
+    <h1>Zadanie numer 3</h1>
+
+    <table>
+      <tbody>
+        {% for item in items %}
+        <tr>
+          <td>{{ forloop.counter }}: {{ item.text }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+    <form method="post">
+      <input
+        id="id_new_item"
+        name="id_new_item"
+        placeholder="wpisz tu przedmiot nazwa"
+      />
+      {% csrf_token %}
+    </form>
+  </body>
+</html>
